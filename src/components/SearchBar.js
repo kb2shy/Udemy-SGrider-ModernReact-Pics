@@ -4,9 +4,12 @@ class SearchBar extends Component {
 
     render() {
         return (
-            <div>
-                <form>
-                    <input type="text"></input>
+            <div className="ui segment">
+                <form className="ui form">
+                    <div className="field">
+                        <label>Image Search</label>
+                        <input type="text"></input>
+                    </div>
                 </form>
             </div>
         )
